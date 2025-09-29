@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/mamede/code/treino_comp/build",
+  "command": "/usr/sbin/cc  -I/home/mamede/code/treino_comp/include  -fsanitize=address -g -std=gnu17 -o CMakeFiles/main.dir/src/basic_cfg.c.o -c /home/mamede/code/treino_comp/src/basic_cfg.c",
+  "file": "/home/mamede/code/treino_comp/src/basic_cfg.c",
+  "output": "CMakeFiles/main.dir/src/basic_cfg.c.o"
+},
+{
+  "directory": "/home/mamede/code/treino_comp/build",
+  "command": "/usr/sbin/cc  -I/home/mamede/code/treino_comp/include  -fsanitize=address -g -std=gnu17 -o CMakeFiles/main.dir/src/code_generator.c.o -c /home/mamede/code/treino_comp/src/code_generator.c",
+  "file": "/home/mamede/code/treino_comp/src/code_generator.c",
+  "output": "CMakeFiles/main.dir/src/code_generator.c.o"
+},
+{
+  "directory": "/home/mamede/code/treino_comp/build",
+  "command": "/usr/sbin/cc  -I/home/mamede/code/treino_comp/include  -fsanitize=address -g -std=gnu17 -o CMakeFiles/main.dir/src/list.c.o -c /home/mamede/code/treino_comp/src/list.c",
+  "file": "/home/mamede/code/treino_comp/src/list.c",
+  "output": "CMakeFiles/main.dir/src/list.c.o"
+},
+{
+  "directory": "/home/mamede/code/treino_comp/build",
+  "command": "/usr/sbin/cc  -I/home/mamede/code/treino_comp/include  -fsanitize=address -g -std=gnu17 -o CMakeFiles/main.dir/src/main.c.o -c /home/mamede/code/treino_comp/src/main.c",
+  "file": "/home/mamede/code/treino_comp/src/main.c",
+  "output": "CMakeFiles/main.dir/src/main.c.o"
+},
+{
+  "directory": "/home/mamede/code/treino_comp/build",
+  "command": "/usr/sbin/cc  -I/home/mamede/code/treino_comp/include  -fsanitize=address -g -std=gnu17 -o CMakeFiles/main.dir/src/tree.c.o -c /home/mamede/code/treino_comp/src/tree.c",
+  "file": "/home/mamede/code/treino_comp/src/tree.c",
+  "output": "CMakeFiles/main.dir/src/tree.c.o"
+}
+]

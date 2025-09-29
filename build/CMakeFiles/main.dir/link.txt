@@ -1,0 +1,1 @@
+/usr/sbin/cc  -fsanitize=address -g -Wl,--dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/src/basic_cfg.c.o CMakeFiles/main.dir/src/code_generator.c.o CMakeFiles/main.dir/src/list.c.o CMakeFiles/main.dir/src/main.c.o CMakeFiles/main.dir/src/tree.c.o -o main
