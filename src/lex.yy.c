@@ -549,18 +549,18 @@ static int yy_more_len = 0;
 #define YY_MORE_ADJ (yy_more_len)
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "../src/lex.l"
+#line 2 "../src/lex.l"
 
-//CONSERTA A PARTIR DO STRING CONCAT FALTA SÓ ISSO
+//Deixar o código postável.
 
 #include <token_type.h>
 #include <macros.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-int const BUFFER_SIZE = 4 * 1024 * 1024;
 char const * const out_file_name = "out_lex.txt";
+
 #line 564 "lex.yy.c"
 
 #line 566 "lex.yy.c"
@@ -846,7 +846,7 @@ YY_DECL
 
 	{
 /* %% [7.0] user's declarations go here */
-#line 28 "lex.l"
+#line 28 "../src/lex.l"
 
 
 #line 852 "lex.yy.c"
@@ -938,96 +938,96 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
-#line 30 "lex.l"
+#line 30 "../src/lex.l"
 {}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 31 "lex.l"
+#line 31 "../src/lex.l"
 { return ID; }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 32 "lex.l"
+#line 32 "../src/lex.l"
 { return LITERAL_INT; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 33 "lex.l"
+#line 33 "../src/lex.l"
 { return LITERAL_FLOAT; }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 34 "lex.l"
+#line 34 "../src/lex.l"
 { return ASSIGNMENT; }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 35 "lex.l"
+#line 35 "../src/lex.l"
 { return OPERATOR; }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 36 "lex.l"
+#line 36 "../src/lex.l"
 { BEGIN(STRING_STATE); yymore(); }
 	YY_BREAK
 case 8:
 /* rule 8 can match eol */
 YY_RULE_SETUP
-#line 37 "lex.l"
+#line 37 "../src/lex.l"
 { return ERROR; yyterminate(); }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 38 "lex.l"
+#line 38 "../src/lex.l"
 { BEGIN(STRING_CONCAT); yymore(); }
 	YY_BREAK
 case 10:
 /* rule 10 can match eol */
 YY_RULE_SETUP
-#line 39 "lex.l"
+#line 39 "../src/lex.l"
 { yymore(); }
 	YY_BREAK
 case 11:
 /* rule 11 can match eol */
 YY_RULE_SETUP
-#line 40 "lex.l"
+#line 40 "../src/lex.l"
 { yymore(); BEGIN(STRING_STATE); }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 41 "lex.l"
+#line 41 "../src/lex.l"
 { yyless(yyleng - 1); BEGIN(INITIAL); return STATIC_STRING; }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 42 "lex.l"
+#line 42 "../src/lex.l"
 { return SENTENCE_END; }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 43 "lex.l"
+#line 43 "../src/lex.l"
 { BEGIN(COMMENT_STATE); }
 	YY_BREAK
 case 15:
 /* rule 15 can match eol */
 YY_RULE_SETUP
-#line 44 "lex.l"
+#line 44 "../src/lex.l"
 { }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 45 "lex.l"
+#line 45 "../src/lex.l"
 { BEGIN(INITIAL); }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 46 "lex.l"
+#line 46 "../src/lex.l"
 { }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 47 "lex.l"
+#line 47 "../src/lex.l"
 ECHO;
 	YY_BREAK
 #line 1033 "lex.yy.c"
@@ -2182,7 +2182,7 @@ void yyfree (void * ptr )
 
 /* %ok-for-header */
 
-#line 47 "lex.l"
+#line 47 "../src/lex.l"
 
 
 #define RET(X) do {retval = X; goto CLEANUP;} while(0)

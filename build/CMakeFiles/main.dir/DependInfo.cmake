@@ -8,11 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mamede/code/treino_comp/src/basic_cfg.c" "CMakeFiles/main.dir/src/basic_cfg.c.o" "gcc" "CMakeFiles/main.dir/src/basic_cfg.c.o.d"
-  "/home/mamede/code/treino_comp/src/code_generator.c" "CMakeFiles/main.dir/src/code_generator.c.o" "gcc" "CMakeFiles/main.dir/src/code_generator.c.o.d"
-  "/home/mamede/code/treino_comp/src/list.c" "CMakeFiles/main.dir/src/list.c.o" "gcc" "CMakeFiles/main.dir/src/list.c.o.d"
-  "/home/mamede/code/treino_comp/src/main.c" "CMakeFiles/main.dir/src/main.c.o" "gcc" "CMakeFiles/main.dir/src/main.c.o.d"
-  "/home/mamede/code/treino_comp/src/tree.c" "CMakeFiles/main.dir/src/tree.c.o" "gcc" "CMakeFiles/main.dir/src/tree.c.o.d"
+  "/home/mamede/code/treino_lex/src/lex.yy.c" "CMakeFiles/main.dir/src/lex.yy.c.o" "gcc" "CMakeFiles/main.dir/src/lex.yy.c.o.d"
+  "/home/mamede/code/treino_lex/src/token_type.c" "CMakeFiles/main.dir/src/token_type.c.o" "gcc" "CMakeFiles/main.dir/src/token_type.c.o.d"
   "" "main" "gcc" "CMakeFiles/main.dir/link.d"
   )
 

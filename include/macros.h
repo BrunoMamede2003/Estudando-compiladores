@@ -5,6 +5,6 @@
 #define not !
 #define and &&
 #define or ||
-#define DEBUG_LINE printf("[DEBUG] Reached line: %d\n", __LINE__)
+#define null ((void*)(0))
 
 #endif //MACROS_H

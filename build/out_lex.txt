@@ -17,3 +17,4 @@
 [LOG] Read token: [ID] = [d]
 [LOG] Read token: [ASSIGNMENT] = [=]
 [LOG] Read token: [ID] = [a]
+[LOG] Read token: [SENTENCE_END] = [;]
