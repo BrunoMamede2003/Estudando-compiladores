@@ -1,0 +1,4 @@
+a = 1 + 2 + .5;
+b = /* comentário a ser ignorado completamente */ "string mano";
+c = "string1" "string2";
+d = a;
